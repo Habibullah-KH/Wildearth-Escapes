@@ -6,7 +6,8 @@ const Navbar = () => {
 
                 
 {/* brand logo */}
-    <div>
+    <div className="flex items-center gap-2">
+        <img src="/public/assets/logo.png" className="w-8 h-8"/>
         <h1 className="font-bold">Wildearth Escapes</h1>
     </div>
 
