@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+  background-color: transparent;
+  border: 2px solid transparent;
+  box-shadow: none;
+  transition: ease-in-out 0.4s;
+}
+
+.btn:hover{
+  background-color: transparent;
+  border: 2px solid black;
+}
